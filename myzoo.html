@@ -1,0 +1,58 @@
+<html>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0N4YC8E3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Y0N4YC8E3B');
+</script>
+<!-- style tag always inside the head tag-->
+<!-- adding the #selected select the tags with id="selected"-->
+<!-- adding the .menu selects the tags with class="menu"-->
+<style>
+    ul.menu{
+        list-style-type: none;
+        display: block;
+        overflow: hidden;
+    }
+    li.menu {
+        background-color: lightblue;
+        float: left;
+        margin: 0;
+        padding: 10;
+    }
+    li.menu:hover {
+        background-color: red;
+    }
+    li#selected{
+    background-color: blue
+}
+</style>
+<!-- all visible bars under body tag -->
+</head>
+<body>
+ <!--GOAL: create a navigation menu bar-->
+ <!-- personal: no https -->
+<h1 style="color: red;">My Zoo Webpage</h1>
+<div>
+<ul class="menu">
+    <li class="menu"><a href="elephant.html">Elephant</a></li>
+    <li class="menu" id="selected">Giraff</li>
+    <li class="menu">Tiger</li>
+    <li class="menu">Lion</li>
+</ul> 
+<!-- div = divider; divide the webpage into "chunks" -->  
+</div>
+<div>
+<h2>Names of Giraffs</h2>
+<ul>
+    <li><a href="https://doesnotexist.com"> Marty </a></li>
+    <li>Steve</li>
+    <li>George</li>
+</ul>
+</div>
+
+</body>
+</html>
+
