@@ -1,0 +1,122 @@
+body {
+  background-color: #fff7e6;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: burlywood;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: darkorange;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.menu li {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.follow-links {
+  margin-top: 30px;        
+  text-align: center;
+}
+
+.follow-links a {
+  color: #b5835a;           
+  text-decoration: none;     
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.follow-links a:hover {
+  color: #8b5e34;            
+  text-decoration: underline;
+}
+
+.rating-table {
+  margin: 40px auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.rating-table th,
+.rating-table td {
+  border: 2px solid #b5835a;
+  padding: 10px;
+}
+
+.rating-table th {
+  background-color: #f5e1c8;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+#main-title {
+  color: #8b5e34;
+}
+
+.backlinks {
+  list-style-type: none;   
+  padding: 0;
+  text-align: center;
+}
+
+.backlinks li {
+  margin: 10px 0;
+}
+
+.backlinks a {
+  color: #b5835a;        
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.backlinks a:hover {
+  color: #8b5e34;       
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #f5e1c8;
+  padding: 15px;
+  text-align: center;
+
+  position: sticky;
+  top: 0;
+
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+.section-title {
+  color: burlywood;
+
+  margin-top: 30px;     
+  margin-bottom: 15px;  
+}
